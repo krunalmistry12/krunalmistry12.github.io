@@ -1,0 +1,11 @@
+.carousel-item img {
+    height: 450px;
+    max-width:100%;
+    
+    padding: auto;
+}
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition:  transform 0.3s ease-in-out; /* Change box shadow on hover */
+  }
